@@ -16,11 +16,11 @@ namespace Snake
 			Console.WriteLine("Call Func1. x = " + x); 
 			
 			x = 1;
-			Func2(x);
+			Func2(x); /*почему 1 , а не 2?*/
 			Console.WriteLine("Call Func2. x = " + x);
 
 			x = 1;
-			Func3(x);
+			Func3(x); /*почему 1 , а не 2?*/
 			Console.WriteLine("Call Func3. x = " + x);
 
 			Point p1 = new Point(1, 3, '*');
