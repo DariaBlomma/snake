@@ -20,6 +20,9 @@ namespace Snake
 			HorizontalLine line = new HorizontalLine(5, 10, 8, '+');
 			line.Drow();
 
+			VerticalLine Vline = new VerticalLine(9, 16, 3, '-');
+			Vline.VerticalDraw();
+
 			Console.ReadLine();
 		}
 
